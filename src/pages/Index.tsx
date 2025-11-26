@@ -97,7 +97,7 @@ const Index = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <Icon name="Home" size={28} className="text-accent" />
-              <h1 className="text-2xl font-bold text-primary">BelwooDoors</h1>
+              <h1 className="text-2xl font-bold text-primary">DoorsX</h1>
             </div>
             
             <nav className="hidden md:flex items-center gap-6">
@@ -184,14 +184,14 @@ const Index = () => {
         </div>
       </header>
 
-      <section className="relative bg-gradient-to-br from-primary via-primary to-accent text-white py-20 md:py-32">
+      <section className="relative bg-gradient-to-br from-accent via-accent to-primary text-white py-20 md:py-32">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl">
             <h2 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              Двери для вашего дома
+              Премиум двери для вашего дома
             </h2>
             <p className="text-xl md:text-2xl mb-8 text-white/90">
-              Более 500 моделей межкомнатных и входных дверей. Собственное производство. Доставка по всей Беларуси.
+              Эксклюзивная коллекция межкомнатных и входных дверей. Европейское качество. Доставка по всей России.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button size="lg" className="bg-white text-primary hover:bg-white/90">
@@ -282,14 +282,14 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">О компании BelwooDoors</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">О компании DoorsX</h2>
               <p className="text-lg text-muted-foreground mb-4">
-                Мы специализируемся на производстве и продаже качественных дверей с 2008 года. 
-                Наша компания предлагает широкий ассортимент межкомнатных, входных и раздвижных дверей.
+                DoorsX — премиум-бренд дверей европейского качества. Мы работаем с лучшими производителями 
+                Италии, Германии и Швейцарии, предлагая эксклюзивные коллекции для вашего дома.
               </p>
               <p className="text-lg text-muted-foreground mb-6">
-                Собственное производство позволяет контролировать качество на всех этапах и предлагать 
-                конкурентные цены. Мы используем только экологичные материалы и современные технологии.
+                Каждая дверь — это произведение искусства, сочетающее изысканный дизайн, надежность 
+                и экологичность. Индивидуальный подход к каждому клиенту — наш главный приоритет.
               </p>
               <Button size="lg" className="bg-accent hover:bg-accent/90">
                 Узнать больше
@@ -391,7 +391,7 @@ const Index = () => {
                 <Icon name="MapPin" size={24} className="text-accent mt-1" />
                 <div>
                   <h3 className="font-semibold text-lg mb-1">Адрес</h3>
-                  <p className="text-muted-foreground">г. Минск, ул. Промышленная, 15</p>
+                  <p className="text-muted-foreground">г. Москва, Кутузовский пр-т, 36</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -406,7 +406,7 @@ const Index = () => {
                 <Icon name="Mail" size={24} className="text-accent mt-1" />
                 <div>
                   <h3 className="font-semibold text-lg mb-1">Email</h3>
-                  <p className="text-muted-foreground">info@belwoodoors.ru</p>
+                  <p className="text-muted-foreground">info@doorsx.ru</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -442,9 +442,9 @@ const Index = () => {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <Icon name="Home" size={24} />
-                <h3 className="text-xl font-bold">BelwooDoors</h3>
+                <h3 className="text-xl font-bold">DoorsX</h3>
               </div>
-              <p className="text-white/80">Качественные двери для вашего дома с 2008 года</p>
+              <p className="text-white/80">Премиум двери европейского качества с 2015 года</p>
             </div>
             <div>
               <h4 className="font-semibold text-lg mb-4">Каталог</h4>
@@ -466,13 +466,13 @@ const Index = () => {
               <h4 className="font-semibold text-lg mb-4">Контакты</h4>
               <ul className="space-y-2 text-white/80">
                 <li>+375 (29) 123-45-67</li>
-                <li>info@belwoodoors.ru</li>
-                <li>г. Минск, ул. Промышленная, 15</li>
+                <li>info@doorsx.ru</li>
+                <li>г. Москва, Кутузовский пр-т, 36</li>
               </ul>
             </div>
           </div>
           <div className="border-t border-white/20 pt-8 text-center text-white/60">
-            <p>&copy; 2024 BelwooDoors. Все права защищены.</p>
+            <p>&copy; 2024 DoorsX. Все права защищены.</p>
           </div>
         </div>
       </footer>
